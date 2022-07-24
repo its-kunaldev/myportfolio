@@ -1,0 +1,94 @@
+.projects-section{
+    margin-top: 8rem;
+}
+
+.projects-section h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.projects-section p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.my-projects {
+    width: 100%;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.project {
+    background-color: var(--color-bg-variant);
+    padding: 1.5rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.project:hover {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.project-info h3 {
+    font-weight: 600;
+    margin-bottom: 2.6rem;
+}
+
+.github-btn {
+    font-size: 17px;
+    background-color: transparent;
+    color: var( --color-primary);
+    border: 1px solid var( --color-primary);
+    margin-right: 1rem;
+    transition: var(--transition);
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+}
+
+.github-btn:hover {
+    background-color: var(--color-white);
+    color: black;
+    border-color: transparent;
+}
+
+
+.demo-btn {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.681);
+    background-color: var( --color-primary);
+    transition: var(--transition);
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+}
+
+.demo-btn:hover {
+    background-color: var(--color-white);
+    color: black;
+    border-color: transparent;
+}
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+    .my-projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+    .my-projects {
+        grid-template-columns: 1fr;
+    }
+}

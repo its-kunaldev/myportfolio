@@ -1,0 +1,9 @@
+   Color	                  Hex
+Light Navy	        #1f1f38 #1f1f38
+Lightest Navy	    #2c2c6c #2c2c6c
+Light Blue	        #4db5ff #4db5ff
+Lightest Blue	    #4db5ff #4db5ff
+Light Slate  	    #a8b2d1 #a8b2d1
+Lightest Slate	    #ccd6f6 #ccd6f6
+White	            #e6f1ff #e6f1ff
+Green	            #64ffda #64ffda

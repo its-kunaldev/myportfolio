@@ -1,0 +1,107 @@
+.about-section {
+    width: 100%;
+    margin-top: 15%;
+}
+
+.about-section p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: var(--color-light);
+    font-weight: 200;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+.about-me {
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    /* display: flex; */
+}
+
+.my-pic {
+    width: 100%;
+    /* width: 25em; */
+    height: 25rem;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    /* aspect-ratio: 1/1; */
+    position: relative;
+}
+
+.my-pic img {
+    border-radius: 2rem;
+    overflow: hidden;
+    width: 100%;
+    object-fit:cover;
+    height: 100%;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.my-pic img:hover {
+    transform: rotate(0);
+}
+
+
+.about-experince {
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+}
+
+.about-experince div {
+    background: var(--color-primary-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about-experince div h3 {
+    font-size: 16px;
+    margin-top: 19px;
+    font-weight: 200;
+}
+
+.about-experince div p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.about-experince div:hover {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+}
+
+.about_icons {
+    font-size: 22px;
+    color: var(--color-primary);
+}
+
+.my-bio {
+    margin-top: 2rem;
+}
+
+.my-bio p {
+    text-align: left;
+    /* word-spacing: 2px; */
+    line-height: 18px;
+    letter-spacing: 2px;
+}
