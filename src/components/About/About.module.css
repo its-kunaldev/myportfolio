@@ -38,8 +38,7 @@
         var(--color-primary),
         transparent
     );
-    /* aspect-ratio: 1/1; */
-    position: relative;
+    place-items: center;
 }
 
 .my-pic img {
@@ -62,7 +61,7 @@
     justify-content: space-between; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1.5rem;
+    gap: 1.5rem;
 }
 
 .about-experince div {
@@ -104,4 +103,43 @@
     /* word-spacing: 2px; */
     line-height: 18px;
     letter-spacing: 2px;
+}
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+    .about-me {
+        grid-template-columns: 1fr;
+        gap: 10%;
+    }
+
+    .my-pic {
+        width: 50%;
+        /* height: 20rem; */
+        margin: 2rem auto 4rem;
+    }
+
+    .about-section {
+        margin-bottom: 30%;
+        margin-top: 30%;
+    }
+}
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+
+    .about-experince {
+        grid-template-columns: 1fr;
+    }
+
+
+    .my-pic {
+        width: 65%;
+        height: auto;
+        margin: 0 auto 3rem;
+    }
+
+    .about-section {
+        margin-bottom: 60%;
+    }
+
 }

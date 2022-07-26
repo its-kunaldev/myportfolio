@@ -68,8 +68,8 @@ const Contactme = props => {
               </article>
             </div>
             <form ref={form} onSubmit={sendEmail}>
-              <input type='text' name='name' placeholder='Your Name' required/>
-              <input type='email' name='email' placeholder='Your Email' required/>
+              <input type='text' name='from_name' placeholder='Your Name' required/>
+              <input type='email' name='from_email' placeholder='Your Email' required/>
               <textarea name='message' rows="?" placeholder='Your Message' required></textarea>
               <button type='submit' className='contact-btn'>👋 Say Hello</button>
               <div className='status'>
