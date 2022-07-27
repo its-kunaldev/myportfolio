@@ -80,3 +80,33 @@
     background-position: center;
     background-size: cover;
 }
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+    .info h1 {
+        font-size: 35px;
+    }
+}
+
+/* ==================== MEDIA QUERIES (very Small DEVICES) ==================== */
+@media screen and (max-width: 350px) {
+    .info h1 {
+        font-size: 30px;
+    }
+
+    .download-btn {
+        margin-right: 0.7rem;   
+    }
+
+    .img-container {
+        width: 18rem;
+        height: 28rem;
+        padding: 0 1rem;
+    }
+    
+    .img-container img {
+        position: absolute;
+        bottom: 0;
+        width: 16rem;
+    }
+}

@@ -2,3 +2,10 @@
     padding: 12px 20px;
     border-radius: 6px;
 }
+
+/* ==================== MEDIA QUERIES (very Small DEVICES) ==================== */
+@media screen and (max-width: 350px) {
+    .btn {
+        padding: 10px 16px;
+    }
+}
