@@ -44,8 +44,8 @@
     border-radius: 15px;
     text-align: center;
     cursor: pointer;
-    padding: 0.9rem;
     /* transition: var(--transition); */
+    padding: 0.9rem;
     margin: 0 10px;
     list-style: none;
 }
@@ -58,6 +58,15 @@
 .social-apps li:hover {
     background-color: transparent;
     border: 1px solid var(--color-primary);
+}
+
+.rocket {
+    font-size: 45px;
+    margin: 3rem 0 2rem;
+}
+
+.copyright {
+    font-size: 13px;
 }
 
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */

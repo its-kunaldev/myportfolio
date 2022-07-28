@@ -8,7 +8,7 @@ import {
     FaTwitter,
   } from "react-icons/fa";
   import { BsLinkedin} from "react-icons/bs";
-//   import { IoMdRocket } from "react-icons/io";
+  import { IoMdRocket } from "react-icons/io";
 
 
 const Footer = props => {
@@ -29,6 +29,8 @@ const Footer = props => {
                 <li><a href="https://www.facebook.com/profile.php?id=100014879986717" rel='noreferrer' target={'_blank'}><FaFacebookSquare /></a></li>
                 <li><a href="https://www.linkedin.com/in/kunal-thakur-b07680211/" rel='noreferrer' target={'_blank'}><BsLinkedin /></a></li>
             </ul>
+            <span><IoMdRocket className='rocket'/></span>
+            <p className='copyright'> &copy; kunal. All rights reserved</p>
         </section>
     )
 }

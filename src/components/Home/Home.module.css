@@ -73,10 +73,18 @@
     position: relative;
 }
 
-.img-container img {
+/* .img-container img {
     position: absolute;
     bottom: 0;
     width: 19rem;
+    background-position: center;
+    background-size: cover;
+} */
+.img-container img {
+    position: absolute;
+    bottom: 2.5rem;
+    left: -5rem;
+    width: 28rem;
     background-position: center;
     background-size: cover;
 }

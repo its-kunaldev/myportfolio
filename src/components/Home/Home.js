@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Button from '../UI/Button';
 
 import styles from './Home.module.css';
-import myPic from "../../assests/pics/user4.png";
+import myPic from "../../assests/pics/hacker.png";
 import TypingEffect from './TypingEffect';
 
 const Home = props => {
