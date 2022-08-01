@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -7,21 +7,36 @@ import Projects from './components/Projects/Projects';
 import Contactme from './components/Contact/Contactme';
 import Footer from './components/footer/Footer';
 import SideContent from './components/UI/sidecontent/SideContent';
+import Navbar from './components/navbar/Navbar';
+import Loader from './components/loader/Loader';
 
 import './App.css';
 import "./index.css";
 
 function App() {
+
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect( () => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 2000);
+
+    setIsLoaded(false);
+  }, []);
+
   return (
     <>
-      <section className="container">
+      { !isLoaded && <Loader />}
+      {isLoaded && <section className="container">
+        <Navbar />
         <Home />
         <About />
         <Skills />
         <Projects />
         <Contactme />
         <SideContent />
-      </section>
+      </section>}
       <Footer />
     </>
   );

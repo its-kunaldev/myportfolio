@@ -12,12 +12,13 @@
 }
 
 :root {
-  --color-bg:	#1f1f38;
+  /* --color-bg:	#1f1f38; */
   --color-bg-variant: #2c2c6c;
   
   /* --color-bg-variant:	#1f1f38; */
+  --color-bg:	#2c2c6c;
+  
   /* --color-bg-variant: #30305b; */
-
   --color-primary: #4db5ff;
 
   --Light-Slate: #a8b2d1;
@@ -37,6 +38,7 @@
   --color-light-gray: #dbdbdb;
 
 
+
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
@@ -44,13 +46,22 @@
   --transition: all 400ms ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  background-color: var(--color-bg-variant);
+  background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1,7;
   background-image: url('./assests/bg-pics/bgTexturn2.png');
+  /* background-image: url('./assests/bg-pics/bg-texture.png'); */
 }
 
 .container {

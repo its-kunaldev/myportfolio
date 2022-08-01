@@ -20,7 +20,7 @@ const Home = props => {
                     return prevIndex + 1;
                 })
             };
-            setInterval(timer, 3000);
+            setInterval(timer, 2000);
             return () => { clearInterval(timer); }
         }, []);
         return <p>{texts[index]}</p>
@@ -35,8 +35,8 @@ const Home = props => {
                 <Text />
             </div>
             <div>
-                <Button className={styles["download-btn"]}>Download CV</Button>
-                <Button className={styles["hello-btn"]}>Say, Hello</Button>
+                <a href={require("../../assests/my-resume/myResume.pdf")} download="myResume" rel='noreferrer' target={'_blank'}><Button className={styles["download-btn"]}>Download CV</Button></a> 
+                <a href="#contact"><Button className={styles["hello-btn"]}>Let's talk</Button></a> 
             </div>
             <div className={styles["img-container"]}>
                 <img src={myPic} alt="" />
