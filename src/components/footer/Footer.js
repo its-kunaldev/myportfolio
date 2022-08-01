@@ -14,7 +14,7 @@ import {
 const Footer = props => {
 
     return (
-        <section className='footer-section' id="footer">
+        <section className='footer-section section section--hidden' id="footer">
             <h1>kunal Thakur</h1>
             <ul className='allSections'>
                 <li><a href="#home">Home</a></li>

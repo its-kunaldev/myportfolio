@@ -7,7 +7,7 @@ import Button from '../UI/Button';
 
 const Projects = props => {
     return (
-        <section className={styles['projects-section']} id='Projects'>
+        <section className={`${styles['projects-section']} section section--hidden`} id='Projects'>
             <p>My recent works</p>
             <h2>My Projects</h2>
             <div className={styles["my-projects"]}>

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Button from '../UI/Button';
 
 import styles from './Home.module.css';
+import "../../index.css";
+
 import myPic from "../../assests/pics/hacker.png";
 import TypingEffect from './TypingEffect';
 
@@ -27,7 +29,7 @@ const Home = props => {
     }
 
     return (
-        <section className={styles.home} id="home">
+        <section className={`${styles.home} section section--hidden`} id="home">
             <div className={styles.info}>
                 <p>Hi, my name is</p>
                 {/* <h1>Kunal Thakur</h1> */}

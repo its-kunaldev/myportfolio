@@ -44,6 +44,7 @@
   --container-width-ms: 90%;
 
   --transition: all 400ms ease;
+  --revealing-transition: 1s linear;
 }
 
 html {
@@ -67,6 +68,15 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+}
+
+.section {
+  transition: var(--revealing-transition);
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(3rem);
 }
 
 

@@ -40,7 +40,7 @@ const Contactme = props => {
 
 
     return (
-        <section id='contact'>
+        <section id='contact' className='section section--hidden'>
           <p>Say, Hello</p>
           <h2>Contact</h2>
     

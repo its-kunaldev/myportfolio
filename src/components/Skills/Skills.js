@@ -5,7 +5,7 @@ import { BsPatchCheck } from 'react-icons/bs';
 
 const Skills = () => {
   return (
-    <section id='experience'>
+    <section id='experience' className='section section--hidden'>
       <p>Skills I have</p>
       <h2>My Experience</h2>
 

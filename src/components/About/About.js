@@ -10,7 +10,7 @@ import { BsStar } from 'react-icons/bs';
 
 const About = props => {
     return(
-        <section className={styles['about-section']} id='about'>
+        <section className={`${styles['about-section']} section section--hidden`} id='about'>
             <p>Get To know</p>
             <h2>About Me</h2>
             <div className={styles["about-me"]}>
