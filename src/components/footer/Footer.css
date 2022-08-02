@@ -41,23 +41,18 @@
 
 .social-apps li  {
     background-color: var(--color-bg-variant);
-    border-radius: 15px;
     text-align: center;
     cursor: pointer;
     /* transition: var(--transition); */
     padding: 0.9rem;
     margin: 0 10px;
     list-style: none;
+    border-radius: 25px;
 }
 
 .social-apps li a {
     color: var(--color-light-gray);
     font-size: 17px;
-}
-
-.social-apps li:hover {
-    background-color: transparent;
-    border: 1px solid var(--color-primary);
 }
 
 .rocket {
