@@ -56,15 +56,15 @@ const Contactme = props => {
               <article className='contact_option'>
                 <FaTelegramPlane className='contact_icons'/>
                 <h4>Telegram</h4>
-                <h5>__13__kunal</h5>
-                <a href='https://twitter.com/__13__kunal?t=DMOJgECdimvmAQqklfyU3g&s=03' target="_blank" rel="noreferrer">Send a message</a>
+                <h5>kunal_62</h5>
+                <a href='https://t.me/kunal_62' target="_blank" rel="noreferrer">Send a message</a>
               </article>
     
               <article className='contact_option'>
                 <BsSnapchat className='contact_icons'/>
                 <h4>Snapchat</h4>
                 <h5>kthakur8686</h5>
-                <a href='https://www.snapchat.com/add/kthakur8686?share_id=QIj0xr7qOXg&locale=en-US ' target="_blank" rel="noreferrer">Send a message</a>
+                <a href='https://snapchat.com/add/kthakur8686' target="_blank" rel="noreferrer">Send a message</a>
               </article>
             </div>
             <form ref={form} onSubmit={sendEmail}>
