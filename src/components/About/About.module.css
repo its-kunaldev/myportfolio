@@ -146,5 +146,10 @@
         margin-bottom: 60%;
     }
 
+    .my-bio p {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+
 }
 

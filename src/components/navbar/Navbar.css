@@ -3,9 +3,12 @@
     bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
-    /* background: rgba(23, 23, 44, 0.603); */
+    /* background: rgba(23, 23, 44, 0.323); */
     /* background: rgba(44, 44, 108, 0.715); */
-    background: rgba(0,0,0,0.3);
+
+
+    background: rgba(77,181,255, 0.2);
+    /* background: rgba(0,0,0,0.3); */
     backdrop-filter: blur(15px);
     width: 19rem;
     height: 4rem;
@@ -40,7 +43,7 @@
 }
 
 .nav-ul li a:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-bg);
 }
 
 /* .nav-ul li a:active,
@@ -55,5 +58,13 @@
 @media screen and (max-width: 600px) {
     .nav-ul li a{
         padding: 10px;
+    }
+
+    .nav-ul li a:hover {
+        background: none;
+    }
+
+    .nav-ul li a:focus {
+        background-color: var(--color-bg);
     }
   }
