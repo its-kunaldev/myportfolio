@@ -36,11 +36,10 @@ const About = props => {
                         </div>
                     </div>
                     <div className={styles['my-bio']}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, tempore voluptatum. Rerum saepe
-                             porro, iste amet possimus non, vel aperiam perferendis et iure alias eius, deleniti adipisci quisquam 
-                             doloribus repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum impedit at 
-                             temporibus debitis suscipit beatae assumenda, earum fuga, ad nobis molestiae iusto itaque porro cumque
-                             eveniet, maxime qui labore eligendi!
+                        <p>Hello guys! My name is <span className={styles.highlighted}>Kunal Thakur</span>. I'm a web developer with a focus on the MERN stack, but stil
+                         exploring other technologies and framewroks that catch my interest! As an artist, my first love will be 
+                          crafting the visual. I spend most days branding, designing and building out web interfaces as a freelancer. 
+                          if you're looking for a developer to add to your team. I'd love to hear from you.
                         </p>
                     </div>
                 </div>

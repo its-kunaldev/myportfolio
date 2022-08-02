@@ -18,6 +18,10 @@
     color: var(--color-primary);
 }
 
+.highlighted {
+    color: var( --Green);
+}
+
 .about-me {
     margin-top: 3rem;
     width: 100%;
