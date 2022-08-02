@@ -49,6 +49,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -57,6 +58,7 @@ html {
 
 body {
   width: 100%;
+  overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-white);
