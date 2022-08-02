@@ -18,7 +18,7 @@
 
 .info p {
     color: #64ffdb5f;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -93,6 +93,10 @@
 @media screen and (max-width: 600px) {
     .info h1 {
         font-size: 35px;
+    }
+
+    .info p {
+        font-weight: 500;
     }
 }
 
