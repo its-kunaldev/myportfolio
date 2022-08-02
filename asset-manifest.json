@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.f8ca3dd8.css",
+    "main.js": "/myportfolio/static/js/main.af07d968.js",
+    "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/kunal profile pic.jpg": "/myportfolio/static/media/kunal profile pic.0da2f363b865130219ea.jpg",
+    "static/media/loading.gif": "/myportfolio/static/media/loading.e831bbf414b0fdcd0eb7.gif",
+    "static/media/movieApp.jpg": "/myportfolio/static/media/movieApp.154fec9f80b0cf08a74c.jpg",
+    "static/media/digitalClock.jpg": "/myportfolio/static/media/digitalClock.d19ca0b35864c3268c12.jpg",
+    "static/media/countryInfo.jpg": "/myportfolio/static/media/countryInfo.4d490598747d47f14060.jpg",
+    "static/media/bankistApp.png": "/myportfolio/static/media/bankistApp.85b6c749306cd43c23f7.png",
+    "static/media/footer-bg.png": "/myportfolio/static/media/footer-bg.cc1273af450504afe755.png",
+    "static/media/hacker.png": "/myportfolio/static/media/hacker.47710bbe9506096ec498.png",
+    "static/media/bgTexturn2.png": "/myportfolio/static/media/bgTexturn2.8a1abc775dec4ce9e1d1.png",
+    "static/media/guessingGame.jpg": "/myportfolio/static/media/guessingGame.aa3ce4c6b2d34acd58fa.jpg",
+    "static/media/scorekeeper.jpg": "/myportfolio/static/media/scorekeeper.7a3c0582dc21985c3e01.jpg",
+    "static/media/myResume.pdf": "/myportfolio/static/media/myResume.2804a07b3d18e3abff70.pdf",
+    "static/media/tictactoe.jpg": "/myportfolio/static/media/tictactoe.3ce850378a7e6c30377c.jpg",
+    "static/media/calculator.jpg": "/myportfolio/static/media/calculator.0c52d38950f037edbe10.jpg",
+    "index.html": "/myportfolio/index.html",
+    "main.f8ca3dd8.css.map": "/myportfolio/static/css/main.f8ca3dd8.css.map",
+    "main.af07d968.js.map": "/myportfolio/static/js/main.af07d968.js.map",
+    "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8ca3dd8.css",
+    "static/js/main.af07d968.js"
+  ]
+}
