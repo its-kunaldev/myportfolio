@@ -50,3 +50,12 @@
 .nav-ul li a:visited{
     background-color: var(--color-bg);
 } */
+
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+
+@media screen and (max-width: 600px) {
+    .nav-ul li a{
+        padding: 10px;
+    }
+  }
