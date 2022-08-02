@@ -25,6 +25,7 @@
     text-decoration: none;
     font-size: 15.5px;
     color: var(--color-light-gray);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .allSections li a:hover {
@@ -53,6 +54,7 @@
 .social-apps li a {
     color: var(--color-light-gray);
     font-size: 17px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .rocket {

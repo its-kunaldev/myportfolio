@@ -35,16 +35,14 @@
     padding: 12px;
     background: transparent;
     border-radius: 50%;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .nav-ul li a:hover {
     background-color: var(--color-primary);
 }
 
- .nav-ul li a.active {
-    background-color: var(--color-primary);
-    color: white;
-}
 /* .nav-ul li a:active,
 .nav-ul li a:focus,
 .nav-ul li a:visited{

@@ -1,6 +1,7 @@
 .btn {
     padding: 12px 20px;
     border-radius: 6px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* ==================== MEDIA QUERIES (very Small DEVICES) ==================== */
