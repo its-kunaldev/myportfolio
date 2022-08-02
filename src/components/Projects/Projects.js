@@ -40,7 +40,7 @@ const Projects = props => {
                     <div className={styles["project-info"]}>
                         <h3>Bankist App</h3>
                         <div className={styles["explore-btns"]}>
-                            <a href="https://github.com/its-kunaldev/movies-app" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
+                            <a href="https://github.com/its-kunaldev/bankistApp" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
                             <a href="https://dmxddjpo16m8bi6gs30tma.on.drv.tw/bankist%20app/bankist%20app/" rel='noreferrer' target={'_blank'}><Button className={styles['demo-btn']}>Demo</Button></a>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Projects = props => {
                     <div className={styles["project-info"]}>
                         <h3>Digital Clock</h3>
                         <div className={styles["explore-btns"]}>
-                            <a href="https://github.com/its-kunaldev/movies-app" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
+                            <a href="https://github.com/its-kunaldev/digital-clock" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
                             <a href="https://dmxddjpo16m8bi6gs30tma.on.drv.tw/clock project/digital clock/" rel='noreferrer' target={'_blank'}><Button className={styles['demo-btn']}>Demo</Button></a>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const Projects = props => {
                     <div className={styles["project-info"]}>
                         <h3>Guessing Game</h3>
                         <div className={styles["explore-btns"]}>
-                            <a href="https://github.com/its-kunaldev/movies-app" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
+                            <a href="https://github.com/its-kunaldev/guessing-number" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
                             <a href="https://dmxddjpo16m8bi6gs30tma.on.drv.tw/project1/guess my number game/guess number.html" rel='noreferrer' target={'_blank'}><Button className={styles['demo-btn']}>Demo</Button></a>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const Projects = props => {
                     <div className={styles["project-info"]}>
                         <h3>TicTacToe</h3>
                         <div className={styles["explore-btns"]}>
-                            <a href="https://github.com/its-kunaldev/movies-app" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
+                            <a href="https://github.com/its-kunaldev/tictactoe" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
                             <a href="https://dmxddjpo16m8bi6gs30tma.on.drv.tw/tictactoe%20game/tictactoe/" rel='noreferrer' target={'_blank'}><Button className={styles['demo-btn']}>Demo</Button></a>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Projects = props => {
                     <div className={styles["project-info"]}>
                         <h3>Scorekeeper</h3>
                         <div className={styles["explore-btns"]}>
-                            <a href="https://github.com/its-kunaldev/movies-app" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
+                            <a href="https://github.com/its-kunaldev/scoreKeeper" rel='noreferrer' target={'_blank'}><Button className={styles['github-btn']}>Github</Button></a>
                             <a href="https://dmxddjpo16m8bi6gs30tma.on.drv.tw/project2/scorekeeper games/scorekeeper.html" rel='noreferrer' target={'_blank'}><Button className={styles['demo-btn']}>Demo</Button></a>
                         </div>
                     </div>
