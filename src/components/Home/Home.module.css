@@ -98,7 +98,8 @@
     }
 
     .info p {
-        font-weight: 500;
+        font-weight: 300;
+        color: #64ffdb9d
     }
 }
 
