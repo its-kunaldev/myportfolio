@@ -64,7 +64,8 @@
         background: none;
     }
 
-    .nav-ul li a:focus {
+    .nav-ul li a:focus,
+    .nav-ul li a:active {
         background-color: var(--color-primary);
     }
   }
