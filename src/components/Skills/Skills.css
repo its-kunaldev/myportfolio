@@ -100,3 +100,16 @@ h2 {
         padding: 2rem 1rem;
     }
 }
+
+/* ==================== MEDIA QUERIES (very Small DEVICES) ==================== */
+@media screen and (max-width: 400px) {
+    .progress-meter {
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .progress-meter {
+        width: 5rem;
+    }
+}
