@@ -62,9 +62,9 @@ const Contactme = props => {
     
               <article className='contact_option'>
                 <BsSnapchat className='contact_icons'/>
-                <h4>Snapchat</h4>
-                <h5>kthakur8686</h5>
-                <a href='https://snapchat.com/add/kthakur8686' target="_blank" rel="noreferrer">Send a message</a>
+                <h4>Whatsapp</h4>
+                <h5>+91 9876125425</h5>
+                <a href='https://api.whatsapp.com/send?phone=919876125425' target="_blank" rel="noreferrer">Send a message</a>
               </article>
             </div>
             <form ref={form} onSubmit={sendEmail}>
