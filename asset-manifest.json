@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.b3ed9a3a.css",
-    "main.js": "/myportfolio/static/js/main.3afb0a6d.js",
+    "main.css": "/myportfolio/static/css/main.9bdbfec8.css",
+    "main.js": "/myportfolio/static/js/main.558482d4.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/kunal profile pic.jpg": "/myportfolio/static/media/kunal profile pic.0da2f363b865130219ea.jpg",
     "static/media/loading.gif": "/myportfolio/static/media/loading.e831bbf414b0fdcd0eb7.gif",
@@ -11,19 +11,19 @@
     "static/media/bankistApp.png": "/myportfolio/static/media/bankistApp.85b6c749306cd43c23f7.png",
     "static/media/footer-bg.png": "/myportfolio/static/media/footer-bg.cc1273af450504afe755.png",
     "static/media/hacker.png": "/myportfolio/static/media/hacker.47710bbe9506096ec498.png",
+    "static/media/kunal_spider_CV_.pdf": "/myportfolio/static/media/kunal_spider_CV_.86339cbf4f9855a4710e.pdf",
     "static/media/bgTexturn2.png": "/myportfolio/static/media/bgTexturn2.8a1abc775dec4ce9e1d1.png",
     "static/media/guessingGame.jpg": "/myportfolio/static/media/guessingGame.aa3ce4c6b2d34acd58fa.jpg",
     "static/media/scorekeeper.jpg": "/myportfolio/static/media/scorekeeper.7a3c0582dc21985c3e01.jpg",
-    "static/media/myResume.pdf": "/myportfolio/static/media/myResume.2804a07b3d18e3abff70.pdf",
     "static/media/tictactoe.jpg": "/myportfolio/static/media/tictactoe.3ce850378a7e6c30377c.jpg",
     "static/media/calculator.jpg": "/myportfolio/static/media/calculator.0c52d38950f037edbe10.jpg",
     "index.html": "/myportfolio/index.html",
-    "main.b3ed9a3a.css.map": "/myportfolio/static/css/main.b3ed9a3a.css.map",
-    "main.3afb0a6d.js.map": "/myportfolio/static/js/main.3afb0a6d.js.map",
+    "main.9bdbfec8.css.map": "/myportfolio/static/css/main.9bdbfec8.css.map",
+    "main.558482d4.js.map": "/myportfolio/static/js/main.558482d4.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3ed9a3a.css",
-    "static/js/main.3afb0a6d.js"
+    "static/css/main.9bdbfec8.css",
+    "static/js/main.558482d4.js"
   ]
 }
