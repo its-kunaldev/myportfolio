@@ -63,6 +63,15 @@ h2 {
     color: var(--color-primary);
 }
 
+.progress-meter {
+    width: 7rem;
+}
+
+.percentage {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
 /* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
     .experience_container {

@@ -17,7 +17,8 @@ const Skills = () => {
               <BsPatchCheck className='experience_details-icons' />
               <div>
                 <h4>HTML5</h4>
-                <small className='text-light'>Experienced</small>
+                {/* <small className='text-light'>Experienced</small> */}
+                <span className='percentage'>90%</span><progress max={"100"} value="90" className='progress-meter'></progress>
               </div>
             </article>
 
@@ -25,7 +26,8 @@ const Skills = () => {
               <BsPatchCheck className='experience_details-icons' />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                {/* <small className='text-light'>Experienced</small> */}
+                <span className='percentage'>80%</span> <progress max={"100"} value="80" className='progress-meter'></progress>
               </div>
             </article>
 
@@ -33,7 +35,8 @@ const Skills = () => {
               <BsPatchCheck className='experience_details-icons' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small>
+                {/* <small className='text-light'>Experienced</small> */}
+                <span className='percentage'>85%</span><progress max={"100"} value="85" className='progress-meter'></progress>
               </div>
             </article>
 
@@ -41,7 +44,8 @@ const Skills = () => {
               <BsPatchCheck className='experience_details-icons' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Basic</small>
+                {/* <small className='text-light'>Basic</small> */}
+                <span className='percentage'>100%</span><progress max={"100"} value="100" className='progress-meter'></progress>
               </div>
             </article>
 
@@ -49,7 +53,8 @@ const Skills = () => {
               <BsPatchCheck className='experience_details-icons' />
               <div>
                 <h4>JQuery</h4>
-                <small className='text-light'>Intermediate</small>
+                {/* <small className='text-light'>Intermediate</small> */}
+                <span className='percentage'>50%</span><progress max={"100"} value="50" className='progress-meter'></progress>
               </div>
             </article>
 
@@ -57,7 +62,8 @@ const Skills = () => {
               <BsPatchCheck className='experience_details-icons' />
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Intermediate</small>
+                {/* <small className='text-light'>Intermediate</small> */}
+                <span className='percentage'>70%</span><progress max={"100"} value="70" className='progress-meter'></progress>
               </div>
             </article>
           </div>
