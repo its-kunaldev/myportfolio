@@ -37,7 +37,7 @@ const Home = props => {
                 <Text />
             </div>
             <div>
-                <a href={require("../../assests/my-resume/myResume2.pdf")} download="kunal's_CV" rel='noreferrer' target={'_blank'}><Button className={styles["download-btn"]}>Download CV</Button></a> 
+                <a href={require("../../assests/my-resume/my-resume-kunalthakur.pdf")} download="kunal's_CV" rel='noreferrer' target={'_blank'}><Button className={styles["download-btn"]}>Download CV</Button></a> 
                 <a href="#contact"><Button className={styles["hello-btn"]}>Let's talk</Button></a> 
             </div>
             <div className={styles["img-container"]}>
