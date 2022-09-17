@@ -1,29 +1,38 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.65f6a4f8.css",
-    "main.js": "/myportfolio/static/js/main.b4020221.js",
+    "main.js": "/myportfolio/static/js/main.b75fada6.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/kunal profile pic2.jpg": "/myportfolio/static/media/kunal profile pic2.1f8452cd23e52e2c215f.jpg",
     "static/media/kunal profile pic.jpg": "/myportfolio/static/media/kunal profile pic.0da2f363b865130219ea.jpg",
     "static/media/loading.gif": "/myportfolio/static/media/loading.e831bbf414b0fdcd0eb7.gif",
     "static/media/movieApp.jpg": "/myportfolio/static/media/movieApp.154fec9f80b0cf08a74c.jpg",
     "static/media/digitalClock.jpg": "/myportfolio/static/media/digitalClock.d19ca0b35864c3268c12.jpg",
     "static/media/countryInfo.jpg": "/myportfolio/static/media/countryInfo.4d490598747d47f14060.jpg",
-    "static/media/bankistApp.png": "/myportfolio/static/media/bankistApp.85b6c749306cd43c23f7.png",
+    "static/media/mypic3.jpg": "/myportfolio/static/media/mypic3.fd1a64b61fb112f12b03.jpg",
+    "static/media/myportfolio2.jpg": "/myportfolio/static/media/myportfolio2.89ffcf0283d56cdca48e.jpg",
+    "static/media/bankistApp.jpg": "/myportfolio/static/media/bankistApp.85b6c749306cd43c23f7.jpg",
+    "static/media/quiz2.jpg": "/myportfolio/static/media/quiz2.be38e04948249005036e.jpg",
+    "static/media/quiz.jpg": "/myportfolio/static/media/quiz.f6743b432d6923daaf2c.jpg",
     "static/media/footer-bg.png": "/myportfolio/static/media/footer-bg.cc1273af450504afe755.png",
     "static/media/hacker.png": "/myportfolio/static/media/hacker.47710bbe9506096ec498.png",
-    "static/media/myResume2.pdf": "/myportfolio/static/media/myResume2.f18c2f750d1010e31337.pdf",
+    "static/media/myportfolio3.jpg": "/myportfolio/static/media/myportfolio3.9426550e777de55bb4f5.jpg",
+    "static/media/myportfolio1.jpg": "/myportfolio/static/media/myportfolio1.6a1b78a3ab0a4421485d.jpg",
+    "static/media/myportfolio4.jpg": "/myportfolio/static/media/myportfolio4.3da0ae9c4267f1f939f0.jpg",
     "static/media/bgTexturn2.png": "/myportfolio/static/media/bgTexturn2.8a1abc775dec4ce9e1d1.png",
     "static/media/guessingGame.jpg": "/myportfolio/static/media/guessingGame.aa3ce4c6b2d34acd58fa.jpg",
     "static/media/scorekeeper.jpg": "/myportfolio/static/media/scorekeeper.7a3c0582dc21985c3e01.jpg",
+    "static/media/Img3.jpg": "/myportfolio/static/media/Img3.728a72f42ddf1c74e74d.jpg",
     "static/media/tictactoe.jpg": "/myportfolio/static/media/tictactoe.3ce850378a7e6c30377c.jpg",
     "static/media/calculator.jpg": "/myportfolio/static/media/calculator.0c52d38950f037edbe10.jpg",
+    "static/media/my-resume-kunalthakur.pdf": "/myportfolio/static/media/my-resume-kunalthakur.7448237dcbb9ab54637a.pdf",
     "index.html": "/myportfolio/index.html",
     "main.65f6a4f8.css.map": "/myportfolio/static/css/main.65f6a4f8.css.map",
-    "main.b4020221.js.map": "/myportfolio/static/js/main.b4020221.js.map",
+    "main.b75fada6.js.map": "/myportfolio/static/js/main.b75fada6.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65f6a4f8.css",
-    "static/js/main.b4020221.js"
+    "static/js/main.b75fada6.js"
   ]
 }
